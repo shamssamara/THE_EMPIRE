@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.p8
+id_rsa*
+id_ed25519*
+
+# Local outputs and captures
+*.log
+*.pcap
+*.pcapng
+*.jsonl
+*.dump
+*.dmp
+*.bak
+
+# Personal / test artifacts
+secrets/
+private/
+artifacts/
+downloads/
+THE_EMPIRE_Private_GitHub_Ready.zip

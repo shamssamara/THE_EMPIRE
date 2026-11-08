@@ -1,0 +1,4 @@
+# Optional dependencies; built-in libraries handle core logic
+cryptography
+colorama
+pyfiglet
