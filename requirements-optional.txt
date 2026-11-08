@@ -1,4 +1,5 @@
-# Optional dependencies; built-in libraries handle core logic
+# Optional dependencies. Core networking uses Python's standard library.
 cryptography
+prompt_toolkit
 colorama
 pyfiglet
